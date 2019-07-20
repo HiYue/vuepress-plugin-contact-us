@@ -1,0 +1,28 @@
+{
+  "name": "vuepress-plugin-contact-us",
+  "version": "1.0.0",
+  "description": "Contact us plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiYue/vuepress-plugin-contact-us.git"
+  },
+  "keywords": [
+    "vuepress"
+  ],
+  "author": "Justin Wang <hi@yue.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HiYue/vuepress-plugin-contact-us/issues"
+  },
+  "homepage": "https://github.com/HiYue/vuepress-plugin-contact-us#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "axios": "^0.19.0"
+  }
+}
