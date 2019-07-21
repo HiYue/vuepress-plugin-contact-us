@@ -11,6 +11,17 @@ module.exports = (options, ctx) => {
             VUEPRESS_CONTACT_US_ENVOLOPE_SIZE: options.buttonSize || '2x',
             VUEPRESS_CONTACT_US_SEND_TO: options.sentTo || 'hi@yue.dev',
             VUEPRESS_CONTACT_US_LANG: options.labelLanguage || 'en',
+        },
+        async generated (pagePaths) {
+            // ...
+            console.log(options)
+        },
+        updated() {
+            // ...
+            console.log(options)
+        },
+        async ready() {
+            // ...
         }
     }
 }

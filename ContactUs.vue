@@ -52,10 +52,10 @@ export default {
             userFullName: null, // User's full name
             message: null,      // User's message
             emailTo: null,      // Receiver's email
-            lang: null,         // Language to use
+            lang: 'en',         // Language to use
             // UI
-            size: null,         // Envolope Icon size
-            color: null         // Envolope Icon color
+            size: '2x',         // Envolope Icon size
+            color: '#3eaf7c'        // Envolope Icon color
         }
     },
     computed:{
@@ -67,14 +67,18 @@ export default {
          * @return Object
          */
         language() {
-            return VuepressContactUsLang[this.lang]
+            const vc = new VuepressContactUsLang()
+            return vc.getLang(this.lang)
         }
     },
     created(){
+        // For computed attribute
+        this.lang = VUEPRESS_CONTACT_US_LANG;
+    },
+    mounted(){
         this.size = VUEPRESS_CONTACT_US_ENVOLOPE_SIZE;
         this.color = VUEPRESS_CONTACT_US_ENVOLOPE_COLOR;
         this.emailTo = VUEPRESS_CONTACT_US_SEND_TO;
-        this.lang = VUEPRESS_CONTACT_US_LANG;
     },
     methods:{
         attachStyles: function(){
