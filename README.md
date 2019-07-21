@@ -51,9 +51,9 @@ module.exports = {
 > Once the user submits the contact form and all fields are valid, the data will be sent to the API url by POST method, with following format:
 ```json
 {
-    email: 'foo@bar.com',
-    fullname: 'John Doe',
-    message: 'This is my message body'
+    "email": "foo@bar.com",
+    "fullname": "John Doe",
+    "message": "This is my message body"
 }
 ```
 
@@ -61,8 +61,8 @@ module.exports = {
 > Once the HTTP request is handled, we expect the response will be returned as following format in JSON:
 ```json
 {
-    error_no: 100,
-    message: 'Thanks, you will be in touch very soon'
+    "error_no": 100,
+    "message": "Thanks, you will be in touch very soon"
 }
 ```
 
