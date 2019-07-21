@@ -11,7 +11,13 @@
     "url": "git+https://github.com/HiYue/vuepress-plugin-contact-us.git"
   },
   "keywords": [
-    "vuepress","vuepress-plugin","contact us form","vue","vuepress","contact us form generator for vuepress","contact us"
+    "vuepress",
+    "vuepress-plugin",
+    "contact us form",
+    "vue",
+    "vuepress",
+    "contact us form generator for vuepress",
+    "contact us"
   ],
   "author": "Justin Wang <hi@yue.dev>",
   "license": "MIT",
