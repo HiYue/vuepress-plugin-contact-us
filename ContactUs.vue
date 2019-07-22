@@ -143,10 +143,17 @@ export default {
                 ).then(res=>{
                     if(res.status === 200){
                         // If return staus 200, means OK
-                        this.formVisible = false;
+                        if(res.data.error_no === 100){
+                            this.formVisible = false
+                            this.message = null
+                        }else{
+                            this.errors.push(res.data.message)
+                        }
+                    }else{
+                        this.errors.push(this.language.LB_ERROR_SERVER)
                     }
                 }).catch(err => {
-
+                    this.errors.push(err)
                 }).finally(res => {
                     this.sendingData = false;
                 })

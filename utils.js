@@ -10,6 +10,7 @@ function VuepressContactUsLang() {
         LB_ERROR_EMAIL: 'Email required.',
         LB_ERROR_EMAIL_VALID: 'Valid email required.',
         LB_ERROR_MESSAGE_BODY: 'Message required.',
+        LB_ERROR_SERVER: 'System is busy, please try later.',
     };
     const cn = {
         LB_FORM_TITLE: '联系我们',
@@ -22,6 +23,7 @@ function VuepressContactUsLang() {
         LB_ERROR_EMAIL: '邮件是必填项.',
         LB_ERROR_EMAIL_VALID: '您填写的邮件格式不对.',
         LB_ERROR_MESSAGE_BODY: '消息内容是必填项.',
+        LB_ERROR_SERVER: '系统繁忙, 请稍候再试.',
     };
 
     this.getLang = function(key) {
