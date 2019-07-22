@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-contact-us",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vuepress plugin: Contact Us Form",
   "main": "index.js",
   "scripts": {

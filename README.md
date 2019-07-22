@@ -9,6 +9,8 @@ This plugin will automatically put a floating button at the left-bottom corner, 
 
 > Please refer the `Options` section below.
 
+![Demo](./assets/Capture.JPG)
+
 ## Install
 ### Yarn (Recommanded)
 ```bash
