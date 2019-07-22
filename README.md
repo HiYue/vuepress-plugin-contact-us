@@ -7,9 +7,9 @@ This plugin will automatically put a floating button at the left-bottom corner, 
 * This plugin integrated the font awesome icon into the UI
 * This plugin support English and Chinese
 
-> Please refer the `Options` section below.
-
+> Demo Screenshot
 ![Demo](./assets/Capture.JPG)
+> Please refer the `Options` section below.
 
 ## Install
 ### Yarn (Recommanded)
