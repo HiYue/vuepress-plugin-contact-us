@@ -25,6 +25,19 @@ function VuepressContactUsLang() {
         LB_ERROR_MESSAGE_BODY: '消息内容是必填项.',
         LB_ERROR_SERVER: '系统繁忙, 请稍候再试.',
     };
+    const tr = {
+        LB_FORM_TITLE: 'Bizimle İletişime Geçiniz',
+        LB_YOUR_NAME: 'Adınız (gerekli)',
+        LB_YOUR_EMAIL: 'Mail adresiniz (gerekli)',
+        LB_YOUR_MESSAGE: 'Mesajınız',
+        LB_YOUR_BUTTON_SEND: 'Gönder',
+        LB_YOUR_BUTTON_CANCAL: 'İptal',
+        LB_ERROR_NAME: 'İsim Gerekli.',
+        LB_ERROR_EMAIL: 'Email Gerekli.',
+        LB_ERROR_EMAIL_VALID: 'Geçerli bir email gerekli.',
+        LB_ERROR_MESSAGE_BODY: 'Mesaj gerekli.',
+        LB_ERROR_SERVER: 'Sistem meşgül daha sonra deneyiniz.',
+    };
 
     this.getLang = function(key) {
         if(key.toLowerCase() === 'en'){
